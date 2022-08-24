@@ -16,9 +16,9 @@ app.post(
   validateName,
   validationPrice,
   validationDesc,
-  validationCreated,
   validationRating,
   validationDifficulty,
+  validationCreated,
   auth,
   (req, res) => {
     res.status(201).json({ message: "Atividade cadastrada com sucesso!" });
