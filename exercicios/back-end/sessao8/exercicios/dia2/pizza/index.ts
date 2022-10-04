@@ -1,43 +1,43 @@
-import PizzaVegetarian from "./PizzaVegetarian";
-import PizzaCommon from "./PizzaCommon";
-import PizzaSugar from "./PizzaSugar";
+import PizzaVegetariana from "./PizzaVegetarian";
+import PizzaComum from "./PizzaCommon";
+import PizzaDoce from "./PizzaSugar";
 
-const calabresa: PizzaCommon = {
+const calabresa: PizzaComum = {
   flavor: "Calabresa",
   slices: 6
 }
 
 console.log(calabresa);
 
-const frango: PizzaCommon = {
+const frango: PizzaComum = {
   flavor: "Frango",
   slices: 8
 }
 
 console.log(frango);
 
-const pepperoni: PizzaCommon = {
+const pepperoni: PizzaComum = {
   flavor: "Pepperoni",
   slices: 6
 }
 
 console.log(pepperoni);
 
-const marguerita: PizzaVegetarian = {
+const marguerita: PizzaVegetariana = {
   flavor: "Marguerita",
   slices: 8
 }
 
 console.log(marguerita);
 
-const palmito: PizzaVegetarian = {
+const palmito: PizzaVegetariana = {
   flavor: "Palmito",
   slices: 8
 }
 
 console.log(palmito);
 
-const goiabadaEQueijo: PizzaSugar = {
+const goiabadaEQueijo: PizzaDoce = {
   flavor: "Goiabada com Queijo",
   slices: 4
 }
