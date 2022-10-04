@@ -9,30 +9,32 @@ class Car {
     this.doors = doors;
   }
   honk(): void {
-    console.log("honk honk");
+    console.log("Buzinando");
   }
 
   turnOn(): void {
-    console.log("aiin o carro ligou");
+    console.log("Carro ligado");
   }
 
   turnOff(): void {
-    console.log("aiin o carro desligou");
+    console.log("Carro desligado");
   }
 
   speedUp(): void {
-    console.log("o carro acelerou");
+    console.log("Acelerando o carro");
   }
 
   speedDown(): void {
-    console.log("o carro desacelerar");
+    console.log("Reduzindo a velocidade do carro.");
   }
 
   stop(): void {
-    console.log("o carro desligou");
+    console.log("Parando o carro");
   }
 
   turn(direction: string): void {
     console.log(`o carro virou para a ${direction}`);
   }
 }
+
+export default Car;
